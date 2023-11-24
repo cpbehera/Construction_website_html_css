@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construction website</title>
+
+  <!-- font-awesome kit -->
+  <script src="https://kit.fontawesome.com/08c259bb2c.js" crossorigin="anonymous"></script>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- swiper css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+  <!-- header section -->
+
+  <section>
+    <header>
+      <div class="logo">
+        <img src="./images/logo2.png" alt="logo">
+      </div>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+      </nav>
+
+      <div class="navIcons">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <div id="search" class="fas fa-search"></div>
+      </div>
+
+      <div id="searchform" class="search-form">
+        <input type="search" name="" id="">
+      </div>
+    </header>
+  </section>
+
+
+  <!-- home -->
+  <div class="home">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/Background1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/background2.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/background3.jpg" alt="">
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+
+  <!-- services -->
+
+  <div class="our-services">
+    <div class="service-heading">
+      <h1>Our Services</h1>
+      <div class="hr"></div>
+    </div>
+
+
+    <div class="main-services">
+      <div class="main-inner-services">
+
+        <div class="inner-services">
+          <div class="services-images">
+            <img src="./images/Service1.jpg" alt="">
+          </div>
+          <div class="service-inner-content">
+            <h2>Painting & Architecture</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, assumenda!</p>
+          </div>
+        </div>
+
+        <div class="inner-services">
+          <div class="services-images">
+            <img src="./images/Service1.jpg" alt="">
+          </div>
+          <div class="service-inner-content">
+            <h2>Painting & Architecture</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, assumenda!</p>
+          </div>
+        </div>
+
+        <div class="inner-services">
+          <div class="services-images">
+            <img src="./images/Service1.jpg" alt="">
+          </div>
+          <div class="service-inner-content">
+            <h2>Painting & Architecture</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, assumenda!</p>
+          </div>
+        </div>
+
+        <div class="inner-services">
+          <div class="services-images">
+            <img src="./images/Service1.jpg" alt="">
+          </div>
+          <div class="service-inner-content">
+            <h2>Painting & Architecture</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, assumenda!</p>
+          </div>
+        </div>
+
+        <div class="inner-services">
+          <div class="services-images">
+            <img src="./images/Service1.jpg" alt="">
+          </div>
+          <div class="service-inner-content">
+            <h2>Painting & Architecture</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, assumenda!</p>
+          </div>
+        </div>
+        
+        <div class="inner-services">
+          <div class="services-images">
+            <img src="./images/Service1.jpg" alt="">
+          </div>
+          <div class="service-inner-content">
+            <h2>Painting & Architecture</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, assumenda!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./script.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
