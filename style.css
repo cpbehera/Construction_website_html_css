@@ -151,6 +151,29 @@ nav.active{
   .inner-services .services-images img{
     width: 100%;
   }
+  .service-inner-content{
+    padding: 2rem 0;
+  }
+  .service-inner-content h2{
+    color: var(--font-color);
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.service-inner-content p{
+    color: var(--font-color);
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 200;
+  }
+
+  /* why us */
+  .why-us{
+    background-image: url(./images/model.png);
+    background-color: #2c353d;
+    width: 100%;
+    padding: 2rem 7%;
+  }
 
 
 
