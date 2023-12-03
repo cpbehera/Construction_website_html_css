@@ -147,6 +147,8 @@ nav.active{
 .inner-services{
     flex: 1 1 300px;
     padding: 1rem;
+    border: 1px solid var(--font-color);
+    border-radius: 10px;
   }
   .inner-services .services-images img{
     width: 100%;
@@ -173,6 +175,27 @@ nav.active{
     background-color: #2c353d;
     width: 100%;
     padding: 2rem 7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .why-us-heading{
+    text-align: center;
+  }
+  .why-us-heading h1{
+    font-size: 35px;
+    color: var(--font-color);
+    font-weight: 500;
+  }
+  .main-inner-us{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .main-inner{
+    flex: 1 1 300px;
   }
 
 
